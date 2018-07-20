@@ -1,0 +1,28 @@
+{
+    "name": "evoluted/twigtools-plugin",
+    "description": "Useful development debugging tools for Twig on PyroCMS 3.x",
+    "type": "project",
+    "keywords": [
+        "twig",
+        "pyro",
+        "pyrocms",
+        "php cms",
+        "laravel cms"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evoluted"
+        },
+        {
+            "name": "Rick Mills",
+            "email": "rick@evoluted.email"
+        }
+    ],
+    "type": "streams-addon",
+    "autoload": {
+        "psr-4": {
+            "Evoluted\\TwigtoolsPlugin\\": "src/"
+        }
+    }
+}
